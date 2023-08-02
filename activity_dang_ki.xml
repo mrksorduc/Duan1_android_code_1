@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.manager.appbanhangadmin.acticity.DangKiActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Kí"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/edt_email_dang_ki" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đăng nhập"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/edt_ten_dang_ki" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/edt_Sdt_dang_ki"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/edt_pass_dang_ki"
+        android:inputType="textPassword"
+        android:layout_marginVertical="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Xác nhận mật khẩu"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/edt_again_pass_dang_ki"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí"
+        android:layout_marginHorizontal="25dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginVertical="15dp"
+        android:id="@+id/btn_dang_ki"/>
+
+</LinearLayout>

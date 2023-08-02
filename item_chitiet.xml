@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/shopping_cart"
+        android:id="@+id/item_img_chitiet"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chi tiet"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/item_chitiet_tensp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="so luong"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:id="@+id/item_tv_chitiet_soluong"/>
+
+    </LinearLayout>
+
+</LinearLayout>
